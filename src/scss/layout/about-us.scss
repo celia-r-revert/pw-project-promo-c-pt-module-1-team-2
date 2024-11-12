@@ -1,0 +1,42 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+    &__title {
+        color: #099d8d;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-block: 30px;
+    }
+
+    &__image {
+        width: 180px;
+        height: 180px;
+        border-radius: 8px;
+        border: solid 5px lightgray;
+        margin-top: 30px;
+
+    }
+
+    &__name-member {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    &__description {
+        color: #54585a;
+    }
+
+    &__social-media {
+        color: #099d8d;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-block: 10px;
+        list-style: none;
+
+    }
+}
