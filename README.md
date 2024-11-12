@@ -1,6 +1,6 @@
 # Proyecto PROMO C pt. Módulo 1 / Equipo 2 
 
-Este es nuestro proyecto para el módulo 1 en el que replicaremos un sitio web de dos páginas siguiendo todos los conocimientos obtenidos en el módulo 1 aplicando los lenguajes de HTML5 y CSS3. Utlilizando herramientas como el starter kiy de Adalab y el procesador SASS. El sitio web se publicará con responsive designe.
+Este es nuestro proyecto para el módulo 1 en el que replicaremos un sitio web de dos páginas siguiendo todos los conocimientos obtenidos en el módulo 1. Aplicamos los lenguajes de HTML5 y CSS3 y utlilizamos herramientas como el starter kit de Adalab y el procesador SASS. El sitio web se publicará con responsive designe.
 
 ##Working agreements
 
@@ -23,9 +23,10 @@ Los horarios de trabajo fuera de los días de clase los establecerán cada una d
 Trabajaremos individualmente. Sin embargo, no descartamos el apoyo mutuo en caso de alguna duda o problema.
 
 7.Cómo se va a formatear el código
+Estamos trabajando en ello.
 
 8.Cómo escoger el nombre de las clases/variables
-Seguiremos el estandar BEM
+Seguiremos el estandar BEM.
 
 9.Definir cómo se compartirán los aprendizajes del proyecto entre los miembros del equipo
 En cada reunión expondremos nuestro trabajo y profundizaremos en los temas que alguna de las compañeras no entienda. Asimismo, fomentamos el apoyo mutuo durante todo el desarrollo del proyecto.
@@ -37,4 +38,6 @@ El último día de cada semana participaremos en un juego online tipo cuestionar
 Estamos trabajando en ello. 
 
 12.Preparar la presentación final del proyecto
+Trabajaremos en ello más adelante.
+
 
