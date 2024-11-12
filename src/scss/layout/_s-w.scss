@@ -1,0 +1,96 @@
+.team{
+    @include flex-center;
+    flex-direction: column;
+    background-color: $color-contrast;
+    position: relative;
+}
+
+.team_description{
+    text-align: center;
+    padding: 2.813rem  0.938rem;
+    h1{
+        @include text-titles;
+        
+    }
+    p{
+        @include text-paragraphs;
+    }
+    @media screen and (min-width: 768px) {
+        padding: 2.813rem
+    }
+    @media screen and (min-width: 1024px) {
+        max-width: 40rem;
+    }
+}
+
+
+.team_decoration--triangle{
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: $color-contrast;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(45deg);
+    bottom: -0.938rem;
+    left: 48%;
+    transform: translate(0, -50%, -52%);
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+}
+
+.sw{
+    background-color: $color-sw-background-copyright;
+    @include flex-center;
+    flex-direction: column;
+    padding: 0;
+    @media screen and (min-width: 768px) {
+        flex-direction: unset;
+    } 
+}
+
+.sw_strengths{
+    text-align: center;
+    padding: 2.813rem  0.938rem 1.406rem  0.938rem;
+    h2{
+        @include text-subtitles;
+        
+    }
+    p{
+        @include text-paragraphs;
+    }
+    @media screen and (min-width: 768px) {
+        padding: 2.813rem 0.938rem;
+        
+    }
+    @media screen and (min-width: 1024px) {
+        padding-right: 2.813rem;
+        max-width: 27.5rem;
+        
+    }
+}
+.sw_weaknesses{
+    text-align: center;
+    padding: 1.406rem 0.938rem 2.813rem 0.938rem;
+    h2{
+        color: $color-header-icons-titles;
+        @include text-subtitles;
+        
+    }
+    p{
+        color: $color_paragraph;
+        @include text-paragraphs;
+    }
+    @media screen and (min-width: 768px) {
+        padding: 2.813rem 0.938rem;
+    }
+    @media screen and (min-width: 1024px) {
+        padding-left: 2.813rem;
+        max-width: 27.5rem;
+    }
+}
+
+
+
+
+
+ 
