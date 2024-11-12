@@ -1,125 +1,40 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# Proyecto PROMO C pt. Módulo 1 / Equipo 2 
 
-# Adalab web starter kit
+Este es nuestro proyecto para el módulo 1 en el que replicaremos un sitio web de dos páginas siguiendo todos los conocimientos obtenidos en el módulo 1 aplicando los lenguajes de HTML5 y CSS3. Utlilizando herramientas como el starter kiy de Adalab y el procesador SASS. El sitio web se publicará con responsive designe.
 
-Ahoy! Este es nuestro Starter Kit creado en **node y vite**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+##Working agreements
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+1.Establecer horario daily
+Nos reuniremos los días de clases en horario de tarde a partir de la hora que definamos el día anterior. Las reuniones de realizarán a través de google meet.
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+2.Definir cómo se toman las decisiones el equipo
+Se tomarán de manera democrática a través de voto particular una vez expuestas las diferentes propuestas y puntos de vista.
 
-- Los ficheros que están sueltos en la raíz del repositorio, como vite.config.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos (excepto este README.md, para describir tu proyecto).
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- La carpeta `public/`, que tiene fichero estáticos como imágenes, fuentes, favicon, librerías de JavaScript antiguas (jQuery, ...)
-- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/` y `public/`, los procesa y los genera dentro de `public/` y `docs/`.
+3.Definir quién es la SCRUM master cada sprint
+En cada sprint se establece un nuevo SCRUM master. Serán 4 sprints y en el grupo hay 4 integrantes.
 
-## Guía de inicio rápido
+4.Definir canales de comunicación
+Se ha creado un grupo de whatsapp para una comunicación más rápida y efectiva. Asimismo, nos apoyaremos en la plataforma de google meets para las reuniones.
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) con una versión superior a la 14 para trabajar con este Starter Kit:
+5.Definir horarios de trabajo/coordinación fuera del horario presencial de Adalab
+Los horarios de trabajo fuera de los días de clase los establecerán cada una de las participantes según sus posibilidades. Potenciamos las flexibilidad y el apoyo entre las integrantes si las mismas no pueden cubrir los objetivos planteados en los diferentes sprints.
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
+6.Establecer cómo se trabajará en el proyecto: individualmente, por parejas, en equipo...
+Trabajaremos individualmente. Sin embargo, no descartamos el apoyo mutuo en caso de alguna duda o problema.
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos** que comienzan por un punto.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+7.Cómo se va a formatear el código
 
-```bash
-npm install
-```
+8.Cómo escoger el nombre de las clases/variables
+Seguiremos el estandar BEM
 
-### Pasos para arrancar el proyecto:
+9.Definir cómo se compartirán los aprendizajes del proyecto entre los miembros del equipo
+En cada reunión expondremos nuestro trabajo y profundizaremos en los temas que alguna de las compañeras no entienda. Asimismo, fomentamos el apoyo mutuo durante todo el desarrollo del proyecto.
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+10.Establecer actividades que fortalezcan el teambuilding
+El último día de cada semana participaremos en un juego online tipo cuestionario o trivial de diferentes temas de nuestra propia elección.
 
-```bash
-npm run dev
-```
+11.Buscar eventos y asistir juntas como mínimo a un evento tecnológico por módulo
+Estamos trabajando en ello. 
 
-Este comando:
+12.Preparar la presentación final del proyecto
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
-
-Después de ejecutar `npm run dev` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
-
-### Pasos para publicar el proyecto en GitHub Pages:
-
-Para generar tu página para producción ejecuta el comando:
-
-```bash
-npm run build
-```
-
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-<!--
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
--->
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-<!--
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
--->
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
