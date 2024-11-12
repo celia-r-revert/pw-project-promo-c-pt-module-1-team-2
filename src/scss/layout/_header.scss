@@ -1,5 +1,23 @@
-.page__header {
+.header {
+  height: 60px;
+  background-color: #099d8d;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+}
+.header__title {
+  text-align: center;
+  font-size: 30px;
+}
+.nav {
+  background-color: #14d9c4;
+}
+
+.nav .nav__item {
+  list-style-type: none;
+  background-color: #14d9c4;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
 }

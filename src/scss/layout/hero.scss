@@ -1,7 +1,15 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url('../images/bg-adalab.png');
-  background-color: $color-bg;
-  font-family: $font-main;
+.hero {
+  position: relative;
+  top: 50px;
+  background-color: white;
+  width: 290px;
+  height: 80px;
+}
+.hero__image {
+  width: 320px;
+}
+.hero__text {
+  text-align: center;
+  display: block;
+
 }
