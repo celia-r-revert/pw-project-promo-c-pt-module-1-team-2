@@ -1,14 +1,10 @@
-
-// @import 'core/variables';
-// @import 'core/reset';
-// @import 'components/code';
-// @import 'components/links';
-// @import 'layout/page';
-// @import 'layout/_header';
-// @import 'layout/_footer';
-// @import 'pages/index';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 @import './core/reset';
-@import './core/variables';
+@import './core/variables';  
 @import 'layout/_header';
 @import 'layout/hero';
 @import './layout/s-w';

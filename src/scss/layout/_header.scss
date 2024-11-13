@@ -1,12 +1,22 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   height: 60px;
   background-color: #099d8d;
   display: flex;
   flex-direction: column;
+  color: white; 
+
+  @media screen {
+    
+  }
 }
 .header__title {
   text-align: center;
   font-size: 30px;
+  padding: 10px;
+  
 }
 .nav {
   background-color: #14d9c4;
@@ -15,9 +25,9 @@
 .nav .nav__item {
   list-style-type: none;
   background-color: #14d9c4;
-  margin: 0px;
-  padding: 0px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
   height: 45px;
 }
