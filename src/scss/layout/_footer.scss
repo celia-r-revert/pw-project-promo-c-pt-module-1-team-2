@@ -29,7 +29,7 @@
   }
   &_copy  {
     padding-top: 30px;
-    font-weight: weight;
+    
     color: #b8b8b9;
 
     @media (width > 768px){
@@ -57,10 +57,12 @@
     text-align: center;
     width: 116px;
     height: 45px;
+    margin-bottom: 45px;
 
     @media (width > 768px){
       display: flex;
       margin-top: -55px;
+      margin-bottom: 56px;
 
     }
   }
