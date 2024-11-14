@@ -20,7 +20,7 @@
         >
         <input type="text" id="name" placeholder="Nombre..." required />
       </div>
-      <div class="colum">
+      <div class="form_colum">
         <label class="form_label" for="email"
           >Email <span class="span">*</span></label
         >
@@ -32,7 +32,7 @@
           required
         />
       </div>
-      <div class="colum">
+      <div class="form_colum">
         <label class="form_label" for="phone">Teléfono</label>
         <input
           class="form_phone"
@@ -42,15 +42,16 @@
         />
       </div>
       <div>
-        <label class="form_label" for="message"
-          >Mensaje <span class="span">*</span></label
-        >
-        <input
+        <label class="form_label" for="message">
+          Mensaje <span class="span">*</span>
+        </label>
+        <textarea
           class="form_message"
           id="message"
           placeholder="¿Qué necesitas?"
+          rows="5"
           required
-        />
+        ></textarea>
       </div>
       <div>
         <input class="form_button" type="submit" value="ENVIAR" />

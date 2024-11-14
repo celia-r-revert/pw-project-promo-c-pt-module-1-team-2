@@ -77,7 +77,10 @@
       }
   }
   input::placeholder {
-      color: #b8b8b9;
+    color: #b8b8b9;
+  }
+  textarea::placeholder {
+    color: #b8b8b9;
   }
   
   & .form_name {
@@ -102,6 +105,12 @@
     }
   }
   & .form_message {
+      display: block;
+      font-size: 14px;
+      border: 1px solid #b8b8b9;
+      padding-left: 15px;
+      padding-top: 11px;
+      margin-inline: auto;
       height: 105px;
       width: 290px;
 
@@ -113,14 +122,17 @@
       }
   }
 
-  .colum {
+  &_colum {
     @media (width > 1200px) {
     display: inline-block;
     }
   }
-  &_button {
+  & .form_button {
+      padding-left: 0px;
       margin-top: 30px;
       margin-bottom: 60px;
+      margin-inline-start: auto;
+      margin-inline-end: 0px;
       font-size: 16px;
       color: white;
       background-color: #099d8d;
@@ -128,16 +140,11 @@
       border-radius: 4px;
       height: 45px;
       width: 290px;
-  }
-  & .form_button {
-    
     @media (width > 768px) {
       width: 206px;
-      margin-left: 240px;
     }
-    
     @media (width > 1200px) {
-      
+      width: 278px;
     }
   }
 
