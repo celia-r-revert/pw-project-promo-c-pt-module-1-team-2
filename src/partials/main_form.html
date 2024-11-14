@@ -20,7 +20,7 @@
         >
         <input type="text" id="name" placeholder="Nombre..." required />
       </div>
-      <div>
+      <div class="colum">
         <label class="form_label" for="email"
           >Email <span class="span">*</span></label
         >
@@ -32,9 +32,14 @@
           required
         />
       </div>
-      <div>
+      <div class="colum">
         <label class="form_label" for="phone">Teléfono</label>
-        <input type="tel" id="phone" placeholder="Ej: 123456789" />
+        <input
+          class="form_phone"
+          type="tel"
+          id="phone"
+          placeholder="Ej: 123456789"
+        />
       </div>
       <div>
         <label class="form_label" for="message"
@@ -47,7 +52,9 @@
           required
         />
       </div>
-      <button class="form_button">ENVIAR</button>
+      <div>
+        <input class="form_button" type="submit" value="ENVIAR" />
+      </div>
     </form>
   </section>
 </main>

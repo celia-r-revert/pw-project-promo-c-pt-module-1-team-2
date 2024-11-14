@@ -26,6 +26,9 @@
     @media (width > 768px) {
       margin-inline: 170px;
     }
+    @media (width > 1200px) {
+      margin-inline: 200px;
+    }
   }
   &_fields {
     font-size: 12px;
@@ -66,12 +69,34 @@
       @media (width > 768px) {
         width: 442px;
       }
+      @media (width > 1200px) {
+      width: 601px;
+      }
   }
-    input::placeholder {
+  input::placeholder {
       color: #b8b8b9;
+  }
+  
+  & .form_name {
+      @media (width > 1200px) {
+        width: 601px;
     }
+  }
+ 
   & .form_email {
       font-size: 16px;
+
+      @media (width > 1200px) {
+        width: 395px;
+        margin-right: 40px;
+        
+
+      }
+  }
+  & .form_phone {
+    @media (width > 1200px) {
+      width: 162px;
+    }
   }
   & .form_message {
       height: 105px;
@@ -80,6 +105,15 @@
       @media (width > 768px) {
         width: 442px;
       }
+      @media (width > 1200px){
+        width: 601px;
+      }
+  }
+
+  .colum {
+    @media (width > 1200px) {
+    display: inline-block;
+    }
   }
   &_button {
       margin-top: 30px;
@@ -91,11 +125,17 @@
       border-radius: 4px;
       height: 45px;
       width: 290px;
-
-      @media (width > 768px) {
-        width: 206px;
-        margin-left: 240px;
-        
-      }
   }
+  & .form_button {
+    
+    @media (width > 768px) {
+      width: 206px;
+      margin-left: 240px;
+    }
+    
+    @media (width > 1200px) {
+      
+    }
+  }
+
 }
