@@ -1,0 +1,79 @@
+.contact {
+  text-align: center;
+  padding-top: 30px; 
+
+  &_title {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+    color: #099d8d;
+    padding-bottom: 15px;
+  }
+  &_container {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  &_text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-inline: 15px;
+    padding-bottom: 30px;
+  }
+  &_fields {
+    font-size: 12px;
+    color: #54585a;
+   padding-bottom: 58px;
+  }
+}
+
+.span {
+  color: #14d9c4;
+}
+
+.form {
+  margin-inline: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 30px;
+  
+  &_label {
+    font-size: 14px;
+    color: #54585a ;
+  }
+  & input {
+      display: block;
+      font-size: 14px;
+      border: 1px solid #b8b8b9;
+      height: 45px;
+      width: 290px;
+      padding-left: 15px;
+  }
+    input::placeholder {
+      color: #b8b8b9;
+    }
+  & .form_email {
+      font-size: 16px;
+  }
+  & .form_message {
+      height: 105px;
+      width: 290px;
+  }
+  &_button {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      font-size: 16px;
+      color: white;
+      background-color: #099d8d;
+      border: none;
+      border-radius: 4px;
+      height: 45px;
+      width: 290px;
+    }
+}
