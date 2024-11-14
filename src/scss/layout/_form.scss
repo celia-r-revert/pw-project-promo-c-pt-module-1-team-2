@@ -1,6 +1,9 @@
 .contact {
   text-align: center;
-  padding-top: 30px; 
+  padding-top:70px; 
+    @media (width > 768px){
+      padding-top: 30px;
+    }
 
   &_title {
     font-family: "Rubik", sans-serif;
