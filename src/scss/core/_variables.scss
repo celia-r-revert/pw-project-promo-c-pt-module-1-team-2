@@ -64,5 +64,14 @@ $color-contrast:white;
     align-items: center;
 }
 
+@mixin form-commons{
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #b8b8b9;
+    width: 290px;
+    padding-left: 15px;
+    margin-inline: auto;
 
+}
 
