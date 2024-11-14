@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +8,22 @@
 @import './core/variables.scss';  
 @import './layout/_header.scss';
 @import './layout/hero.scss';
+=======
+
+// @import 'core/variables';
+// @import 'core/reset';
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/_header';
+// @import 'layout/_footer';
+// @import 'pages/index';
+@import './core/reset';
+@import './core/variables';
+@import 'layout/_header';
+@import 'components/form';
+@import 'layout/hero';
+>>>>>>> 5730a4c7e2b5fc99dd4a6d8b1f1bb83dec739cba
 @import './layout/s-w';
 @import './layout/about-us.scss';
 @import './layout/footer';
