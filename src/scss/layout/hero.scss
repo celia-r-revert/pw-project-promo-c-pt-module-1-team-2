@@ -24,4 +24,23 @@
   bottom: 20px;
   left: 20px;
   font-size: 20pt;
+  p {
+    @include text-slogan;
+  }
+  @media screen and (min-width: 768px) {
+    width: 441px;
+    height: 80px;
+    position: relative;
+    bottom: 80px;
+    left: 46px;
+    opacity: 0.8
+  }
+  @media screen and (min-width: 1200px) {
+    width: 574px;
+    height: 90px;
+    position: relative;
+    left: 138px;
+    opacity: 0.8
+
+  }
 }
