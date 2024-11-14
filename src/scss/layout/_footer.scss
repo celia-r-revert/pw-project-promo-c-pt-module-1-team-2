@@ -1,3 +1,77 @@
-.about-us__image {
-  width: 5px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  border-top: 1px solid #b8b8b9;
+  text-align: center;
+
+  @media (width > 768px) {
+    margin-inline: 45px;
+    border-top: 1px solid #b8b8b9;
+  }
+
+  @media (width > 1200px) {
+    margin-inline: 138px;
+  }
+
+  &_nav {
+    font-size: 14px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    padding-top: 30px;
+
+    @media (width > 768px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &_copy {
+    padding-top: 30px;
+
+    color: #b8b8b9;
+
+    @media (width > 768px) {
+      list-style-type: none;
+      padding: 0px;
+    }
+  }
+
+  &_links {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 1.43;
+    font-weight: 600;
+
+    @media (width > 768px) {
+      list-style-type: none;
+      line-height: 2.14;
+      padding: 0;
+    }
+  }
+
+  &_link {
+    text-decoration: none;
+    color: #54585a;
+  }
+
+  &_logo {
+    text-align: center;
+    width: 116px;
+    height: 45px;
+    margin-bottom: 45px;
+
+    @media (width > 768px) {
+      display: flex;
+      margin-top: -55px;
+      margin-bottom: 56px;
+
+    }
+  }
 }

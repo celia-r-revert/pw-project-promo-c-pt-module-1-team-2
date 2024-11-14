@@ -1,1 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import './core/_reset.scss';
+@import './core/_variables.scss';
+@import './layout/_header.scss';
+@import './layout/hero.scss';
+@import './layout/s-w';
 @import './layout/about-us.scss';
+@import './layout/footer';
+
+@import './layout/form';
