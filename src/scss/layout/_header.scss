@@ -8,9 +8,11 @@
   flex-direction: column;
   color: white; 
 
-  @media screen {
-    
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-row: 2;
   }
+    
 }
 .header__title {
   text-align: center;
