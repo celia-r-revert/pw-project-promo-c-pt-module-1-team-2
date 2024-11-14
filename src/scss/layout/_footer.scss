@@ -4,11 +4,12 @@
   padding: 0;
 }
 .footer {
-  border-top: 2px solid #b8b8b9;
+  border-top: 1px solid #b8b8b9;
   text-align: center;
  
     @media (width > 768px){
     margin-inline: 45px;
+    border-top: 1px solid #b8b8b9;
     }
 
     @media (width > 1200px){

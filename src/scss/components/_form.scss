@@ -22,16 +22,21 @@
     line-height: 24px;
     margin-inline: 15px;
     padding-bottom: 30px;
+
+    @media (width > 768px) {
+      margin-inline: 170px;
+    }
   }
   &_fields {
     font-size: 12px;
     color: #54585a;
-   padding-bottom: 58px;
+    padding-bottom: 58px;
   }
 }
 
 .span {
   color: #14d9c4;
+  
 }
 
 .form {
@@ -42,6 +47,8 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
   line-height: 30px;
+  display: flex;
+  justify-content: center;
   
   &_label {
     font-size: 14px;
@@ -55,6 +62,10 @@
       width: 290px;
       padding-left: 15px;
       margin-inline: auto;
+
+      @media (width > 768px) {
+        width: 442px;
+      }
   }
     input::placeholder {
       color: #b8b8b9;
@@ -65,6 +76,10 @@
   & .form_message {
       height: 105px;
       width: 290px;
+
+      @media (width > 768px) {
+        width: 442px;
+      }
   }
   &_button {
       margin-top: 30px;
@@ -76,5 +91,11 @@
       border-radius: 4px;
       height: 45px;
       width: 290px;
+
+      @media (width > 768px) {
+        width: 206px;
+        margin-left: 240px;
+        
+      }
   }
 }
