@@ -10,7 +10,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 24px;
-    color: #099d8d;
+    color: $color-header-icons-titles;  
     padding-bottom: 15px;
   }
   &_container {
@@ -21,6 +21,7 @@
     font-variation-settings: "wdth" 100;
   }
   &_text {
+    color: $color-paragraph;
     font-size: 16px;
     line-height: 24px;
     margin-inline: 15px;
@@ -30,19 +31,18 @@
       margin-inline: 170px;
     }
     @media (width > 1200px) {
-      margin-inline: 200px;
+      margin-inline: 300px;
     }
   }
   &_fields {
     font-size: 12px;
-    color: #54585a;
+    color: $color-paragraph;
     padding-bottom: 58px;
   }
 }
 
 .span {
-  color: #14d9c4;
-  
+  color: $color-headernav;
 }
 
 .form {
@@ -58,17 +58,11 @@
   
   &_label {
     font-size: 14px;
-    color: #54585a;
   }
   & input {
-      display: block;
-      font-size: 14px;
-      border: 1px solid #b8b8b9;
+      @include form-commons;
       height: 45px;
-      width: 290px;
-      padding-left: 15px;
-      margin-inline: auto;
-
+      
       @media (width > 768px) {
         width: 442px;
       }
@@ -77,67 +71,74 @@
       }
   }
   input::placeholder {
-      color: #b8b8b9;
+    color: $color-copyright;
   }
-  
+  input.form_email::placeholder {
+    color: $color-paragraph;
+  }
+  textarea::placeholder {
+    color: $color-copyright;
+  }
   & .form_name {
+  
       @media (width > 1200px) {
         width: 601px;
-    }
+      }
   }
- 
   & .form_email {
       font-size: 16px;
 
       @media (width > 1200px) {
         width: 395px;
         margin-right: 40px;
-        
-
       }
   }
   & .form_phone {
+  
     @media (width > 1200px) {
       width: 162px;
     }
   }
   & .form_message {
+    
+    @include form-commons;
+      padding-left: 15px;
+      padding-top: 11px;
+      margin-inline: auto;
       height: 105px;
-      width: 290px;
-
+      
       @media (width > 768px) {
         width: 442px;
       }
       @media (width > 1200px){
         width: 601px;
       }
-  }
+    }
+  &_colum {
 
-  .colum {
     @media (width > 1200px) {
     display: inline-block;
     }
   }
-  &_button {
+  & .form_button {
+      padding-left: 0px;
       margin-top: 30px;
       margin-bottom: 60px;
+      margin-inline-start: auto;
+      margin-inline-end: 0px;
       font-size: 16px;
-      color: white;
-      background-color: #099d8d;
+      color: $color-contrast;
+      background-color: $color-header-icons-titles;
       border: none;
       border-radius: 4px;
       height: 45px;
       width: 290px;
-  }
-  & .form_button {
-    
+      
     @media (width > 768px) {
       width: 206px;
-      margin-left: 240px;
     }
-    
     @media (width > 1200px) {
-      
+      width: 278px;
     }
   }
 

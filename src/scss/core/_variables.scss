@@ -51,7 +51,8 @@
 
 // colors
 $color-header-icons-titles: #099d8d;
-$color-sw-background-copyright: #e7e7ed;
+$color-sw-background: #ebebee;
+$color-copyright: #b8b8b9;
 $color-paragraph: #54585a;
 $color-headernav: #14d9c4;
 $color-subtitles: black;
@@ -64,5 +65,13 @@ $color-contrast:white;
     align-items: center;
 }
 
-
+@mixin form-commons{
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #b8b8b9;
+    width: 290px;
+    padding-left: 15px;
+    margin-inline: auto;
+}
 
