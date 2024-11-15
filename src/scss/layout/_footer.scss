@@ -6,7 +6,7 @@
 
 .footer {
   text-align: center;
-  border-top: 1px solid #b8b8b9;
+  border-top: 1px solid $color-copyright;
   @media (width > 768px) {
     padding-inline: 45px;
   }
@@ -31,7 +31,7 @@
   &_copy {
     padding-top: 30px;
 
-    color: #b8b8b9;
+    color: $color-copyright;
 
     @media (width > 768px) {
       list-style-type: none;
@@ -54,7 +54,7 @@
 
   &_link {
     text-decoration: none;
-    color: #54585a;
+    color: $color-paragraph;
   }
 
   &_logo {
