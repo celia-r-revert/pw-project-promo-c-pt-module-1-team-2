@@ -12,6 +12,15 @@
         margin-block: 30px;
     }
 
+    &__member {
+
+        @media (min-width:768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+    }
+
     &__image {
         width: 180px;
         height: 180px;
@@ -28,6 +37,8 @@
 
     &__description {
         color: #54585a;
+
+        @media (min-width:768px) {}
     }
 
     &__social-media {
