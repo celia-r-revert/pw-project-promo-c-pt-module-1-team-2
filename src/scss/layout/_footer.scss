@@ -1,18 +1,14 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .footer {
   text-align: center;
   border-top: 1px solid $color-copyright;
-  @media (width > 768px) {
+
+    @media (width > 768px) {
     padding-inline: 45px;
-  }
-  @media (width > 1200px) {
+    }
+    @media (width > 1200px) {
     padding-inline: 138px;
-  }
+    }
+
   &_nav {
     font-size: 14px;
     text-align: center;
@@ -27,10 +23,8 @@
       justify-content: space-between;
     }
   }
-
   &_copy {
     padding-top: 30px;
-
     color: $color-copyright;
 
     @media (width > 768px) {
@@ -38,7 +32,6 @@
       padding: 0px;
     }
   }
-
   &_links {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -51,12 +44,10 @@
       padding: 0;
     }
   }
-
   &_link {
     text-decoration: none;
     color: $color-paragraph;
   }
-
   &_logo {
     text-align: center;
     width: 116px;
@@ -67,7 +58,6 @@
       display: flex;
       margin-top: -55px;
       margin-bottom: 56px;
-
     }
   }
 }

@@ -43,7 +43,6 @@
 
 .span {
   color: $color-headernav;
-  
 }
 
 .form {
@@ -59,7 +58,6 @@
   
   &_label {
     font-size: 14px;
-    
   }
   & input {
       @include form-commons;
@@ -81,28 +79,22 @@
   textarea::placeholder {
     color: $color-copyright;
   }
-  
   & .form_name {
-   
-
+  
       @media (width > 1200px) {
         width: 601px;
-    }
+      }
   }
- 
   & .form_email {
       font-size: 16px;
 
       @media (width > 1200px) {
         width: 395px;
         margin-right: 40px;
-        
-
       }
   }
   & .form_phone {
   
-
     @media (width > 1200px) {
       width: 162px;
     }
@@ -121,9 +113,9 @@
       @media (width > 1200px){
         width: 601px;
       }
-  }
-
+    }
   &_colum {
+
     @media (width > 1200px) {
     display: inline-block;
     }
@@ -141,6 +133,7 @@
       border-radius: 4px;
       height: 45px;
       width: 290px;
+      
     @media (width > 768px) {
       width: 206px;
     }
