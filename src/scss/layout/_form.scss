@@ -1,4 +1,12 @@
-.contact_form {
+.img { 
+  width: 100vw;   /* 100% del ancho de la ventana */
+  height: 50vh;  /* 100% de la altura de la ventana */
+  object-fit: cover;
+  
+}
+
+
+.contact {
   text-align: center;
   padding-top:70px; 
     @media (width > 768px){
@@ -83,7 +91,7 @@
   
       @media (width > 1200px) {
         width: 601px;
-      }
+    }
   }
   & .form_email {
       font-size: 16px;
@@ -95,6 +103,7 @@
   }
   & .form_phone {
   
+
     @media (width > 1200px) {
       width: 162px;
     }
@@ -113,9 +122,9 @@
       @media (width > 1200px){
         width: 601px;
       }
-    }
-  &_colum {
+  }
 
+  &_colum {
     @media (width > 1200px) {
     display: inline-block;
     }
@@ -133,7 +142,6 @@
       border-radius: 4px;
       height: 45px;
       width: 290px;
-
     @media (width > 768px) {
       width: 206px;
     }
