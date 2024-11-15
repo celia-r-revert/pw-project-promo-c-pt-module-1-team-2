@@ -1,16 +1,15 @@
-.img { 
-  width: 100vw;   /* 100% del ancho de la ventana */
-  height: 50vh;  /* 100% de la altura de la ventana */
+.contact_img { 
+  width: 100vw; 
+  height: 50vh;  
   object-fit: cover;
-  
 }
-
 
 .contact {
   text-align: center;
-  padding-top:70px; 
-    @media (width > 768px){
-      padding-top: 30px;
+  padding-top:30px; 
+
+    @media (width > 1200px){
+      padding-top: 45px;
     }
 
   &_title {
@@ -54,15 +53,9 @@
 }
 
 .form {
+  @include all-form;
   margin-inline: 15px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
   line-height: 30px;
-  display: flex;
-  justify-content: center;
   
   &_label {
     font-size: 14px;
