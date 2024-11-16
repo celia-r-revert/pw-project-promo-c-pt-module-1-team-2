@@ -77,6 +77,12 @@
   input.form_email::placeholder {
     color: $color-paragraph;
   }
+  input.form_button {
+    transition: background-color 0.4s ease;
+  }
+  input.form_button:focus {
+    background-color: rgb(136, 6, 6);
+   }
   textarea::placeholder {
     color: $color-copyright;
   }
@@ -96,7 +102,6 @@
   }
   & .form_phone {
   
-
     @media (width > 1200px) {
       width: 162px;
     }
@@ -135,6 +140,7 @@
       border-radius: 4px;
       height: 45px;
       width: 290px;
+
     @media (width > 768px) {
       width: 206px;
     }
