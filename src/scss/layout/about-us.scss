@@ -10,6 +10,16 @@
         font-size: 24px;
         text-transform: uppercase;
         margin-block: 30px;
+
+    }
+
+    &__member {
+
+        @media (min-width:768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
     }
 
     &__image {
@@ -21,13 +31,35 @@
 
     }
 
+    &__container-info {
+        @media (min-width:768px) {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+    }
+
     &__name-member {
         font-size: 20px;
         margin-top: 15px;
+
+        @media (min-width:768px) {
+            display: flex;
+        }
     }
 
     &__description {
         color: #54585a;
+
+        @media (min-width:768px) {
+            display: flex;
+            text-align: left;
+        }
+    }
+
+    &__container-social-media {
+        @media (min-width:768px) {
+            display: flex;
+        }
     }
 
     &__social-media {
@@ -37,6 +69,6 @@
         justify-content: center;
         margin-block: 10px;
         list-style: none;
-
     }
+
 }
