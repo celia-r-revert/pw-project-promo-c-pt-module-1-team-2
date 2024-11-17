@@ -81,8 +81,9 @@
     transition: background-color 0.4s ease;
   }
   input.form_button:focus {
-    background-color: rgb(136, 6, 6);
-   }
+        background-color: rgb(136, 6, 6);
+  }
+  
   textarea::placeholder {
     color: $color-copyright;
   }
@@ -148,5 +149,6 @@
       width: 278px;
     }
   }
-
 }
+
+
