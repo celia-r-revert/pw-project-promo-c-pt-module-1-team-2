@@ -21,18 +21,25 @@
     </div>
   </section>
   <section class="form">
-    <form>
+    <form action="https://formspree.io/f/xyzyjrjw" method="POST">
       <div>
         <label class="form_label" for="name">
           Nombre Completo <span class="span">*</span></label
         >
-        <input type="text" id="name" placeholder="Nombre..." required />
+        <input
+          name="name"
+          type="text"
+          id="name"
+          placeholder="Nombre..."
+          required
+        />
       </div>
       <div class="form_colum">
         <label class="form_label" for="email"
           >Email <span class="span">*</span></label
         >
         <input
+          name="email"
           class="form_email"
           type="email"
           id="email"
@@ -54,6 +61,7 @@
           Mensaje <span class="span">*</span>
         </label>
         <textarea
+          name="message"
           class="form_message"
           id="message"
           placeholder="¿Qué necesitas?"
