@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apocalypse Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC+klEQVRYhb3Uv2sbZxjA8e9zUortPyFDyBRCA5ICGTworQajO4WM+QOM82tsBxMNJQTRwYQSTNtgSgkhQ5ZsDhhbSDZqqhOIjh6KfCE0FU0oreMaV0qNJb1Ph1qKItWW7uzomY7jXn0/976SJOa5T4FvTaO1un7uU0Y9FkocJW+FQ8WoV5qKVoojBrybuKjmESlGPXfqvDcaiNV7QyAuSt6oPIt5pUTk5x9HC+iCfIJqwQpZhZjnJiKeO1pA1yRQCpZSiHmlRLTybOSALogWREKFqOcmIt4PxwbY9LkmIUpBNFyIeaV4xDvad8RSOK/wGfDaz0L5b0eKllr5mFeKB/35SvsiWilOiCXXVEkLnAzwWauIZIxRd/1s3D/gHcSdwOIaR4Wg7vqZwZA+QAey4U4A0wJp4FRgSNO46x9f9A/oQCrFMbGsGVVNiw+IqtKqvzX/PP8l16jVM8a0yr/duOUf0IFsuGMCM0BalVNywEoFWrU6u9VXNN781b5tgJxCRiRU/vXq5/4BHUilOCaWzKDvH83+G/eGe8co5IAMLS1Xb876B3QgG+6YiEyrarpVq58eEO4bhaxAJhwUMPdiZzcUCv/UQCvl2tbp5Z0am6rIQWfTP2eAs753YGlpiRMnPrqgqreBy+z/nTfVUK5vs/z3n2w29w6DvETkSzXmcfX67N7QgMXFZcbHw33h3nkP0tpD9k9Z4SUwh+qj6vXZvfbzAwHZbBYRa2D4EEj1jWnOqTEPu8MDASsreUTMJPAFcGnYcNdUgbsKD1OOvXvQQ32AXC6HMToJ3AGSAcKvRWROVR84h4T7AGtrazQazUngNuAEDN9V5YHjJN8Ou0iy2VVEzAVVvUOwrf4d+EpVv0ulnKHD7QlD64kqV4KGge8dx675DXcBmPIZ/wO4p6oLqZQTONwN8BUGFo7yxkEAm8A8cN9x7J3jCg8D2ALuich9204ee/gwwJaIfA18Y9vJ7Q8V/j/ANjAvIiMJdwN2gAURmbft5Naowu35Fwg6bZKdTK4oAAAAAElFTkSuQmCC" />
+    <link rel="stylesheet" href="./assets/main-10758a8d.css">
+  </head>
+
+  <body>
+    <header class="header">
+  <h1 class="header__title" id="header">
+    <a href="./index.html">
+      APOCALYPSE CODE
+    </a>
+  </h1>
+  <nav class="nav">
+    <ul class="nav__item">
+      <li>
+        <a class="nav__link" href="./index.html#team">
+          EQUIPO
+        </a>
+      </li>
+      <li>
+        <a class="nav__link" href="./index.html#about-us">
+          QUIÉNES SOMOS
+        </a>
+      </li>
+      <li>
+        <a class="nav__link" href="./form.html">
+          CONTACTO
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+    <main>
+  <section>
+    <img
+      class="contact_img"
+      src="../images/form_illustration_mobile.png"
+      alt="ilustration zombie girls"
+    />
+  </section>
+  <section class="contact">
+    <h1 class="contact_title">CONTACTO</h1>
+    <div class="contact_container">
+      <p class="contact_text">
+        Nuestro equipo de programadoras zombie está listo para devorar tus
+        proyectos y escupir código de alta calidad. ¡No te arrepentirás... a
+        menos que seas alérgico a los cerebros! Contacta con nosotras.
+      </p>
+      <h6 class="contact_fields">
+        Todos los campos marcados con <span class="span">* </span>son
+        obligatorios
+      </h6>
+    </div>
+  </section>
+  <section class="form">
+    <form action="https://formspree.io/f/xyzyjrjw" method="POST">
+      <div>
+        <label class="form_label" for="name">
+          Nombre Completo <span class="span">*</span></label
+        >
+        <input
+          name="name"
+          type="text"
+          id="name"
+          placeholder="Nombre..."
+          required
+        />
+      </div>
+      <div class="form_colum">
+        <label class="form_label" for="email"
+          >Email <span class="span">*</span></label
+        >
+        <input
+          name="email"
+          class="form_email"
+          type="email"
+          id="email"
+          placeholder="nombre.apellidos@mail.com"
+          required
+        />
+      </div>
+      <div class="form_colum">
+        <label class="form_label" for="phone">Teléfono</label>
+        <input
+          class="form_phone"
+          type="tel"
+          id="phone"
+          placeholder="Ej: 123456789"
+        />
+      </div>
+      <div>
+        <label class="form_label" for="message">
+          Mensaje <span class="span">*</span>
+        </label>
+        <textarea
+          name="message"
+          class="form_message"
+          id="message"
+          placeholder="¿Qué necesitas?"
+          rows="5"
+          required
+        ></textarea>
+      </div>
+      <div>
+        <input class="form_button" type="submit" value="ENVIAR" />
+      </div>
+    </form>
+  </section>
+</main>
+
+    <footer class="footer">
+  <nav class="footer_nav">
+    <ul class="footer_copy">
+      <li>Apocalypse Code © 2024</li>
+    </ul>
+    <ul class="footer_links">
+      <li><a class="footer_link" href="./index.html#team">EQUIPO</a></li>
+      <li>
+        <a class="footer_link" href="./index.html#about-us">QUIÉNES SOMOS</a>
+      </li>
+      <li><a class="footer_link" href="./form.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+  <img class="footer_logo" src="../images/logo-adalab.png" alt="logo Adalab" />
+</footer>
+  </body>
+</html>
