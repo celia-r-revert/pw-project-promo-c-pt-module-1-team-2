@@ -2,10 +2,10 @@
 @mixin text-titles {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;  
+    font-size: 1.5rem;
     color: $color-header-icons-titles;
     line-height: 6.25rem;
-    }
+}
 
 @mixin text-subtitles {
     font-family: "Rubik", sans-serif;
@@ -13,41 +13,41 @@
     font-weight: 500;
     color: $color-header-icons-titles;
     line-height: 2.813rem;
-    }
+}
 
 @mixin text-paragraphs {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     color: $color-paragraph;
     line-height: 1.5rem;
-    }
+}
 
 @mixin text-names {
     font-family: "Open Sans", sans-serif;
     font-size: 1.25rem;
     color: $color-subtitles;
-    }
+}
 
 @mixin text-title-nav {
     font-family: "Rubik", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     color: $color-contrast
-    }
+}
 
 @mixin text-subtitles-nav {
     font-family: "Rubik", sans-serif;
     font-size: 0.908rem;
     font-weight: 500;
     color: $color-contrast;
-    }
+}
 
 @mixin text-slogan {
     font-family: "Open Sans", sans-serif;
     font-size: 1.125rem;
     font-weight: 600;
     color: $color-subtitles;
-    }
+}
 
 // colors
 $color-header-icons-titles: #099d8d;
@@ -56,16 +56,16 @@ $color-copyright: #b8b8b9;
 $color-paragraph: #54585a;
 $color-headernav: #14d9c4;
 $color-subtitles: black;
-$color-contrast:white;
+$color-contrast: white;
 
 // display
-@mixin flex-center{
+@mixin flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@mixin form-commons{
+@mixin form-commons {
     font-family: "Open Sans", sans-serif;
     display: block;
     font-size: 14px;
@@ -76,13 +76,13 @@ $color-contrast:white;
 }
 
 @mixin all-form {
-font-family: "Open Sans", sans-serif;
-font-optical-sizing: auto;
-font-weight: weight;
-font-style: normal;
-font-variation-settings: "wdth" 100;
-display: flex;
-justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    display: flex;
+    justify-content: center;
 }
 
 @mixin footer-nav {
